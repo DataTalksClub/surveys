@@ -1,0 +1,218 @@
+{
+  "Which managed LLM services or cloud-based providers do you use?": {
+    "options": [
+      {
+        "option": "OpenAI",
+        "percentage": 73.1
+      },
+      {
+        "option": "Anthropic",
+        "percentage": 24.4
+      },
+      {
+        "option": "I don't use any managed LLM services",
+        "percentage": 21.1
+      }
+    ]
+  },
+  "Do you use any solutions for self-hosting open-source LLMs?": {
+    "options": [
+      {
+        "option": "We don't self-host LLMs",
+        "percentage": 74.1
+      },
+      {
+        "option": "vLLM",
+        "percentage": 9.4
+      },
+      {
+        "option": "Self-written (custom inference solutions)",
+        "percentage": 8.5
+      }
+    ]
+  },
+  "If you do any fine-tuning of LLMs, which of the following applies?": {
+    "options": [
+      {
+        "option": "No, I don't fine-tune",
+        "percentage": 72.6
+      },
+      {
+        "option": "Yes, for self-hosted",
+        "percentage": 15.6
+      },
+      {
+        "option": "Yes, for managed LLM",
+        "percentage": 11.8
+      }
+    ]
+  },
+  "How do you access or provision GPUs for training/fine-tuning or running LLMs?": {
+    "options": [
+      {
+        "option": "Cloud (AWS)",
+        "percentage": 39
+      },
+      {
+        "option": "Cloud (Azure)",
+        "percentage": 22.9
+      },
+      {
+        "option": "Cloud (GCP)",
+        "percentage": 16.2
+      },
+      {
+        "option": "On-premise / Private",
+        "percentage": 12.4
+      },
+      {
+        "option": "Cloud (Other)",
+        "percentage": 2.9
+      }
+    ]
+  },
+  "Do you use any of the following vector databases for LLM-powered applications?": {
+    "options": [
+      {
+        "option": "No vector databases",
+        "percentage": 58.9
+      },
+      {
+        "option": "Elasticsearch",
+        "percentage": 21
+      },
+      {
+        "option": "Chroma",
+        "percentage": 15.6
+      },
+      {
+        "option": "Pinecone",
+        "percentage": 11.6
+      },
+      {
+        "option": "Pgvector",
+        "percentage": 8
+      },
+      {
+        "option": "Quadrant",
+        "percentage": 6.3
+      },
+      {
+        "option": "Weaviate",
+        "percentage": 2.7
+      },
+      {
+        "option": "Milvus",
+        "percentage": 1.3
+      }
+    ]
+  },
+  "Which frameworks or libraries do you use to integrate or orchestrate LLM applications?": {
+    "options": [
+      {
+        "option": "We don't use LLM integration frameworks",
+        "percentage": 58.1
+      },
+      {
+        "option": "LangChain",
+        "percentage": 33.9
+      },
+      {
+        "option": "LlamaIndex",
+        "percentage": 16.7
+      }
+    ]
+  },
+  "Do you use any tools to monitor and observe LLM usage, performance, or quality?": {
+    "options": [
+      {
+        "option": "No observability/monitoring",
+        "percentage": 73.6
+      },
+      {
+        "option": "Weights & Biases (W&B)",
+        "percentage": 12
+      },
+      {
+        "option": "LangSmith",
+        "percentage": 9.7
+      },
+      {
+        "option": "Evidently AI",
+        "percentage": 5.6
+      }
+    ]
+  },
+  "For which use cases do you currently employ LLMs?": {
+    "options": [
+      {
+        "option": "Code generation",
+        "percentage": 62.1
+      },
+      {
+        "option": "Question-answering on internal knowledge",
+        "percentage": 58.1
+      },
+      {
+        "option": "Document summarization / classification",
+        "percentage": 55.2
+      },
+      {
+        "option": "Content generation",
+        "percentage": 31.5
+      },
+      {
+        "option": "Customer support automation",
+        "percentage": 25.6
+      },
+      {
+        "option": "Data annotation",
+        "percentage": 17.2
+      },
+      {
+        "option": "Autonomous agents",
+        "percentage": 14.3
+      },
+      {
+        "option": "Agentic interactions",
+        "percentage": 12.8
+      },
+      {
+        "option": "Content moderation / quality control",
+        "percentage": 9.9
+      }
+    ]
+  },
+  "How many LLM-based systems do you currently have in production?": {
+    "options": [
+      {
+        "option": "0",
+        "percentage": 54.3
+      },
+      {
+        "option": "1",
+        "percentage": 27.4
+      },
+      {
+        "option": "2–5",
+        "percentage": 16.1
+      },
+      {
+        "option": "5+",
+        "percentage": 2.2
+      }
+    ]
+  },
+  "Do you have a dedicated GenAI/LLM team in your organization?": {
+    "options": [
+      {
+        "option": "No",
+        "percentage": 75.7
+      },
+      {
+        "option": "Yes",
+        "percentage": 24.3
+      }
+    ]
+  }
+}

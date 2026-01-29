@@ -1,0 +1,230 @@
+{
+  "Where are you located? (Region)": {
+    "options": [
+      {
+        "option": "North America",
+        "percentage": 37.1
+      },
+      {
+        "option": "Europe",
+        "percentage": 24.9
+      },
+      {
+        "option": "Asia",
+        "percentage": 24.5
+      },
+      {
+        "option": "Africa",
+        "percentage": 6.8
+      },
+      {
+        "option": "South America",
+        "percentage": 3.8
+      },
+      {
+        "option": "Middle East",
+        "percentage": 1.7
+      },
+      {
+        "option": "Not stated",
+        "percentage": 1.3
+      }
+    ]
+  },
+  "What is your job role?": {
+    "options": [
+      {
+        "option": "Data Engineer",
+        "percentage": 28.7
+      },
+      {
+        "option": "Data Scientist",
+        "percentage": 19
+      },
+      {
+        "option": "Data Analyst / Product Analyst",
+        "percentage": 16.9
+      },
+      {
+        "option": "Machine Learning Engineer",
+        "percentage": 13.5
+      },
+      {
+        "option": "Software Engineer / Developer",
+        "percentage": 13.1
+      },
+      {
+        "option": "AI Engineer / LLM Engineer",
+        "percentage": 3.4
+      },
+      {
+        "option": "Consultant",
+        "percentage": 2.1
+      },
+      {
+        "option": "Student",
+        "percentage": 1.7
+      },
+      {
+        "option": "Engineering Leadership",
+        "percentage": 1.3
+      },
+      {
+        "option": "DevOps / SRE / Platform Engineer",
+        "percentage": 0.4
+      }
+    ]
+  },
+  "What is your current grade/level in your organization?": {
+    "options": [
+      {
+        "option": "Senior level",
+        "percentage": 40.5
+      },
+      {
+        "option": "Entry level",
+        "percentage": 35.4
+      },
+      {
+        "option": "Lead / Head",
+        "percentage": 10.1
+      },
+      {
+        "option": "Mid level",
+        "percentage": 3
+      },
+      {
+        "option": "Director",
+        "percentage": 2.5
+      },
+      {
+        "option": "Student",
+        "percentage": 3
+      },
+      {
+        "option": "Freelance / Independent Data Scientist",
+        "percentage": 2.1
+      },
+      {
+        "option": "Executive",
+        "percentage": 1.3
+      },
+      {
+        "option": "Other",
+        "percentage": 2.1
+      }
+    ]
+  },
+  "How large is your organization?": {
+    "options": [
+      {
+        "option": "1000+ employees",
+        "percentage": 29.9
+      },
+      {
+        "option": "201-500 employees",
+        "percentage": 17.7
+      },
+      {
+        "option": "51-200 employees",
+        "percentage": 12.2
+      },
+      {
+        "option": "11-50 employees",
+        "percentage": 12.2
+      },
+      {
+        "option": "Freelance",
+        "percentage": 14.8
+      },
+      {
+        "option": "1-10 employees",
+        "percentage": 8
+      },
+      {
+        "option": "Academic / Research",
+        "percentage": 2.1
+      },
+      {
+        "option": "Other",
+        "percentage": 3
+      }
+    ]
+  },
+  "Which industry or sector best describes your organization?": {
+    "options": [
+      {
+        "option": "Technology / Software",
+        "percentage": 40.5
+      },
+      {
+        "option": "Finance / Banking",
+        "percentage": 9.3
+      },
+      {
+        "option": "Education / Research",
+        "percentage": 9.3
+      },
+      {
+        "option": "Healthcare",
+        "percentage": 8
+      },
+      {
+        "option": "Retail / E-commerce",
+        "percentage": 7.6
+      },
+      {
+        "option": "Manufacturing",
+        "percentage": 5.5
+      },
+      {
+        "option": "Telecommunications",
+        "percentage": 4.6
+      },
+      {
+        "option": "Government / Public Sector",
+        "percentage": 4.2
+      },
+      {
+        "option": "Travel / Tourism / Hospitality",
+        "percentage": 1.3
+      },
+      {
+        "option": "Consulting / Professional Services",
+        "percentage": 0.8
+      },
+      {
+        "option": "Other",
+        "percentage": 8.9
+      }
+    ]
+  },
+  "How would you describe your organization's overall AI/ML adoption stage?": {
+    "options": [
+      {
+        "option": "Some production use cases in specific teams",
+        "percentage": 30.4
+      },
+      {
+        "option": "Multiple production use cases across the company",
+        "percentage": 28.7
+      },
+      {
+        "option": "Just exploring",
+        "percentage": 21.5
+      },
+      {
+        "option": "mostly proofs of concept",
+        "percentage": 16
+      },
+      {
+        "option": "AI/ML is core to our products or operations",
+        "percentage": 6.3
+      },
+      {
+        "option": "We don't use AI/ML",
+        "percentage": 2.1
+      }
+    ]
+  }
+}

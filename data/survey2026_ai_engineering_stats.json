@@ -1,0 +1,652 @@
+{
+  "How many AI or LLM-based systems do you currently have in production?": {
+    "total_responses": 34,
+    "options": [
+      {
+        "option": "2-5",
+        "count": 14,
+        "percentage": 41.18
+      },
+      {
+        "option": "0",
+        "count": 7,
+        "percentage": 20.59
+      },
+      {
+        "option": "1",
+        "count": 7,
+        "percentage": 20.59
+      },
+      {
+        "option": "5+",
+        "count": 6,
+        "percentage": 17.65
+      }
+    ]
+  },
+  "For which use cases do you currently employ AI/LLMs-based applications? (Select all that apply)": {
+    "total_responses": 34,
+    "options": [
+      {
+        "option": "Document summarization / extraction",
+        "count": 24,
+        "percentage": 70.59
+      },
+      {
+        "option": "Question-answering on internal knowledge bases",
+        "count": 22,
+        "percentage": 64.71
+      },
+      {
+        "option": "Customer support automation (e.g., chatbots)",
+        "count": 18,
+        "percentage": 52.94
+      },
+      {
+        "option": "Code generation",
+        "count": 16,
+        "percentage": 47.06
+      },
+      {
+        "option": "Agentic interactions (e.g., connecting to external APIs)",
+        "count": 14,
+        "percentage": 41.18
+      },
+      {
+        "option": "Autonomous agents for task completion",
+        "count": 11,
+        "percentage": 32.35
+      },
+      {
+        "option": "Content generation (e.g., articles, blogs, social media)",
+        "count": 10,
+        "percentage": 29.41
+      },
+      {
+        "option": "Data annotation",
+        "count": 9,
+        "percentage": 26.47
+      },
+      {
+        "option": "Content moderation / quality control",
+        "count": 4,
+        "percentage": 11.76
+      },
+      {
+        "option": "Learning",
+        "count": 1,
+        "percentage": 2.94
+      },
+      {
+        "option": "Research",
+        "count": 1,
+        "percentage": 2.94
+      }
+    ]
+  },
+  "Which managed LLM services or cloud-based providers do you use? (Select all that apply)": {
+    "total_responses": 34,
+    "options": [
+      {
+        "option": "OpenAI",
+        "count": 21,
+        "percentage": 61.76
+      },
+      {
+        "option": "I don't use any managed LLM services",
+        "count": 6,
+        "percentage": 17.64
+      },
+      {
+        "option": "AWS Bedrock",
+        "count": 5,
+        "percentage": 14.7
+      },
+      {
+        "option": "Anthropic",
+        "count": 4,
+        "percentage": 11.7
+      },
+      {
+        "option": "Google (Gemini / Vertex AI)",
+        "count": 4,
+        "percentage": 11.7
+      },
+      {
+        "option": "Microsoft Foundry",
+        "count": 2,
+        "percentage": 5.88
+      },
+      {
+        "option": "Langdock",
+        "count": 1,
+        "percentage": 2.94
+      },
+      {
+        "option": "Google Cloud Platform (GCP)",
+        "count": 1,
+        "percentage": 2.94
+      },
+      {
+        "option": "Azure",
+        "count": 2,
+        "percentage": 5.88
+      },
+      {
+        "option": "OpenRouter",
+        "count": 1,
+        "percentage": 2.94
+      },
+      {
+        "option": "Groq",
+        "count": 1,
+        "percentage": 2.94
+      }
+    ]
+  },
+  "Do you self-host open-source models? (Select all that apply)": {
+    "total_responses": 30,
+    "options": [
+      {
+        "option": "We don't self-host models",
+        "count": 20,
+        "percentage": 58.82
+      },
+      {
+        "option": "Yes, using vLLM",
+        "count": 6,
+        "percentage": 18.46
+      },
+      {
+        "option": "Yes, using a custom inference stack",
+        "count": 4,
+        "percentage": 12.31
+      },
+      {
+        "option": "Yes, using TGI (Text Generation Inference)",
+        "count": 2,
+        "percentage": 6.15
+      },
+      {
+        "option": "Yes, using NVIDIA NIM",
+        "count": 2,
+        "percentage": 6.15
+      }
+    ]
+  },
+  "Which AI application patterns do you use? (Select all that apply)": {
+    "total_responses": 34,
+    "options": [
+      {
+        "option": "Prompt-based applications",
+        "count": 26,
+        "percentage": 76.47
+      },
+      {
+        "option": "Retrieval-Augmented Generation (RAG)",
+        "count": 24,
+        "percentage": 70.59
+      },
+      {
+        "option": "Tool/function calling",
+        "count": 12,
+        "percentage": 35.29
+      },
+      {
+        "option": "Multi-step or agentic workflows",
+        "count": 12,
+        "percentage": 35.29
+      },
+      {
+        "option": "Fine-tuned models",
+        "count": 10,
+        "percentage": 29.41
+      },
+      {
+        "option": "Hybrid systems (LLMs + ML models)",
+        "count": 7,
+        "percentage": 20.59
+      },
+      {
+        "option": "Autonomous agents",
+        "count": 5,
+        "percentage": 14.71
+      }
+    ]
+  },
+  "Which frameworks or libraries do you use to build or orchestrate AI applications? (Select all that apply)": {
+    "total_responses": 32,
+    "options": [
+      {
+        "option": "LangChain",
+        "count": 18,
+        "percentage": 56.25
+      },
+      {
+        "option": "We don't use AI frameworks",
+        "count": 11,
+        "percentage": 34.38
+      },
+      {
+        "option": "Custom In-House Framework",
+        "count": 6,
+        "percentage": 18.75
+      },
+      {
+        "option": "Semantic Kernel",
+        "count": 2,
+        "percentage": 6.25
+      },
+      {
+        "option": "Microsoft Agent Framework",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Crew AI",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Embabel",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Google ADK",
+        "count": 1,
+        "percentage": 3.12
+      }
+    ]
+  },
+  "Do you use any of the following vector databases for LLM-powered applications? (Select all that apply)": {
+    "total_responses": 32,
+    "options": [
+      {
+        "option": "Elasticsearch",
+        "count": 9,
+        "percentage": 28.12
+      },
+      {
+        "option": "We don't use vector databases",
+        "count": 9,
+        "percentage": 28.12
+      },
+      {
+        "option": "Chroma",
+        "count": 6,
+        "percentage": 18.75
+      },
+      {
+        "option": "pgvector",
+        "count": 6,
+        "percentage": 18.75
+      },
+      {
+        "option": "Qdrant",
+        "count": 6,
+        "percentage": 18.75
+      },
+      {
+        "option": "Pinecone",
+        "count": 5,
+        "percentage": 15.62
+      },
+      {
+        "option": "Azure AI Search",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Google BigQuery",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Weaviate",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Databricks Vector Search",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Cosmos DB",
+        "count": 1,
+        "percentage": 3.12
+      },
+      {
+        "option": "Milvus",
+        "count": 1,
+        "percentage": 3.12
+      }
+    ]
+  },
+  "How do you generate or manage embeddings? (Select all that apply)": {
+    "total_responses": 32,
+    "options": [
+      {
+        "option": "Open-source embedding models",
+        "count": 14,
+        "percentage": 43.75
+      },
+      {
+        "option": "Managed embedding APIs (e.g., OpenAI, Cohere)",
+        "count": 9,
+        "percentage": 28.12
+      },
+      {
+        "option": "Mixed approach",
+        "count": 9,
+        "percentage": 28.12
+      },
+      {
+        "option": "We don't use embeddings",
+        "count": 4,
+        "percentage": 12.5
+      },
+      {
+        "option": "Not sure",
+        "count": 2,
+        "percentage": 6.25
+      }
+    ]
+  },
+  "Do you evaluate or test AI/LLM outputs systematically?": {
+    "total_responses": 29,
+    "options": [
+      {
+        "option": "Yes, using manual or human-in-the-loop evaluation",
+        "count": 11,
+        "percentage": 37.93
+      },
+      {
+        "option": "No formal evaluation practices",
+        "count": 9,
+        "percentage": 31.03
+      },
+      {
+        "option": "Yes, using automated evaluations (offline or CI-based)",
+        "count": 5,
+        "percentage": 17.24
+      },
+      {
+        "option": "Yes, using lightweight checks (spot checks, prompts only)",
+        "count": 4,
+        "percentage": 13.79
+      }
+    ]
+  },
+  "Do you use any tools to monitor AI/LLM systems in production? (Select all that apply)": {
+    "total_responses": 29,
+    "options": [
+      {
+        "option": "Custom logging/monitoring",
+        "count": 14,
+        "percentage": 48.28
+      },
+      {
+        "option": "We don’t monitor AI systems",
+        "count": 12,
+        "percentage": 41.38
+      },
+      {
+        "option": "LangSmith",
+        "count": 3,
+        "percentage": 10.34
+      },
+      {
+        "option": "Evidently AI",
+        "count": 3,
+        "percentage": 10.34
+      },
+      {
+        "option": "Weights & Biases (W&B)",
+        "count": 2,
+        "percentage": 6.9
+      },
+      {
+        "option": "Arize AI",
+        "count": 2,
+        "percentage": 6.9
+      }
+    ]
+  },
+  "Where do you run AI / LLM workloads? (Select all that apply)": {
+    "total_responses": 30,
+    "options": [
+      {
+        "option": "Cloud-Managed Services",
+        "count": 14,
+        "percentage": 46.67
+      },
+      {
+        "option": "Cloud-Hosted Custom Infrastructure",
+        "count": 10,
+        "percentage": 33.33
+      },
+      {
+        "option": "On-Premise / Private Infrastructure",
+        "count": 9,
+        "percentage": 30.0
+      },
+      {
+        "option": "Hybrid",
+        "count": 3,
+        "percentage": 10.0
+      }
+    ]
+  },
+  "How do you access or provision GPUs for training/fine-tuning or running LLMs?": {
+    "total_responses": 21,
+    "options": [
+      {
+        "option": "Cloud GPUs (AWS, GCP, Azure)",
+        "count": 12,
+        "percentage": 57.14
+      },
+      {
+        "option": "On-Premise GPUs",
+        "count": 5,
+        "percentage": 23.81
+      },
+      {
+        "option": "CPU-Only",
+        "count": 3,
+        "percentage": 14.29
+      },
+      {
+        "option": "Specialized Inference Providers (e.g., Groq)",
+        "count": 1,
+        "percentage": 4.76
+      }
+    ]
+  },
+  "Do you have a dedicated GenAI/LLM team in your organization?": {
+    "total_responses": 32,
+    "options": [
+      {
+        "option": "No",
+        "count": 18,
+        "percentage": 56.25
+      },
+      {
+        "option": "Yes",
+        "count": 14,
+        "percentage": 43.75
+      }
+    ]
+  },
+  "How would you describe your AI engineering maturity?": {
+    "total_responses": 30,
+    "options": [
+      {
+        "option": "Early production (a few AI apps, limited standards)",
+        "count": 16,
+        "percentage": 53.33
+      },
+      {
+        "option": "Experimentation only (prototypes, demos)",
+        "count": 8,
+        "percentage": 26.67
+      },
+      {
+        "option": "Established (repeatable patterns, monitoring, evaluations)",
+        "count": 3,
+        "percentage": 10.0
+      },
+      {
+        "option": "Advanced (platform-level AI, governance, cost controls)",
+        "count": 3,
+        "percentage": 10.0
+      }
+    ]
+  },
+  "For the AI engineering tools and frameworks you use, how would you describe their role?": {
+    "total_responses": 30,
+    "options": [
+      {
+        "option": "Mission-critical for production systems",
+        "count": 12,
+        "percentage": 40.0
+      },
+      {
+        "option": "Experimental / exploratory use only",
+        "count": 11,
+        "percentage": 36.67
+      },
+      {
+        "option": "Used regularly but not critical",
+        "count": 7,
+        "percentage": 23.33
+      }
+    ]
+  },
+  "Which AI engineering tools or technologies do you plan to adopt or expand in the next 12 months?": {
+    "total_responses": 14,
+    "options": [
+      {
+        "option": "Claude",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Production AI Engineering",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Autonomous agents (with more freedom than a workflow)",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Observability and monitoring in production (cloud)",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "LLMs",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "LLM Observability",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Fine-Tuning",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Monitoring",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "MCP/Agents",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Service and providers",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Prompt optimization and generation with DSPy",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Groq",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "Amazon Bedrock",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "LangFuse",
+        "count": 1,
+        "percentage": 7.14
+      },
+      {
+        "option": "LangSmith",
+        "count": 1,
+        "percentage": 7.14
+      }
+    ]
+  },
+  "What are your biggest challenges in building or operating AI/LLM systems?": {
+    "total_responses": 29,
+    "options": [
+      {
+        "option": "Evaluation and reliability",
+        "count": 23,
+        "percentage": 79.31
+      },
+      {
+        "option": "Integration with existing systems",
+        "count": 19,
+        "percentage": 65.52
+      },
+      {
+        "option": "Cost and compute constraints",
+        "count": 16,
+        "percentage": 55.17
+      },
+      {
+        "option": "Organizational readiness / ownership",
+        "count": 16,
+        "percentage": 55.17
+      },
+      {
+        "option": "Security and privacy",
+        "count": 15,
+        "percentage": 51.72
+      },
+      {
+        "option": "Latency and performance",
+        "count": 14,
+        "percentage": 48.28
+      },
+      {
+        "option": "Data quality or availability",
+        "count": 13,
+        "percentage": 44.83
+      },
+      {
+        "option": "Lack of skills or experience",
+        "count": 12,
+        "percentage": 41.38
+      }
+    ]
+  }
+}

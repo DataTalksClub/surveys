@@ -1,0 +1,245 @@
+{
+  "Which of the following community activities are you aware of? (Select all that apply)": {
+    "total_responses": 72,
+    "options": [
+      {
+        "option": "Courses",
+        "count": 67,
+        "percentage": 93.06
+      },
+      {
+        "option": "Webinars",
+        "count": 52,
+        "percentage": 72.22
+      },
+      {
+        "option": "Workshops",
+        "count": 46,
+        "percentage": 63.89
+      },
+      {
+        "option": "Podcasts",
+        "count": 35,
+        "percentage": 48.61
+      },
+      {
+        "option": "Open-Source Spotlight (Open-source demos)",
+        "count": 20,
+        "percentage": 27.78
+      },
+      {
+        "option": "Kaggle competitions",
+        "count": 19,
+        "percentage": 26.39
+      },
+      {
+        "option": "Book of the Week events",
+        "count": 16,
+        "percentage": 22.22
+      },
+      {
+        "option": "Project of the Week events",
+        "count": 11,
+        "percentage": 15.28
+      }
+    ]
+  },
+  "Which DataTalks.Club activities have you personally participated in?\n(Select all that apply)": {
+    "total_responses": 72,
+    "options": [
+      {
+        "option": "Courses",
+        "count": 56,
+        "percentage": 77.78
+      },
+      {
+        "option": "Webinars",
+        "count": 32,
+        "percentage": 44.44
+      },
+      {
+        "option": "Workshops",
+        "count": 24,
+        "percentage": 33.33
+      },
+      {
+        "option": "Podcasts",
+        "count": 18,
+        "percentage": 25.0
+      },
+      {
+        "option": "Book of the Week events",
+        "count": 9,
+        "percentage": 12.5
+      },
+      {
+        "option": "I haven’t participated yet",
+        "count": 7,
+        "percentage": 9.72
+      },
+      {
+        "option": "Kaggle competitions",
+        "count": 6,
+        "percentage": 8.33
+      },
+      {
+        "option": "Project of the Week events",
+        "count": 6,
+        "percentage": 8.33
+      },
+      {
+        "option": "Open-Source Spotlight (Open-source demos)",
+        "count": 5,
+        "percentage": 6.94
+      }
+    ]
+  },
+  "If DataTalks.Club had any impact on you, what should we know about it? Main Impact Categories": {
+    "total_responses": 35,
+    "options": [
+      { "option": "Confidence", "count": 18, "percentage": 51.43 },
+      { "option": "Practical / Production Skills", "count": 16, "percentage": 45.71 },
+      { "option": "Career Growth / Opportunities", "count": 12, "percentage": 34.29 },
+      { "option": "Community & Networking", "count": 10, "percentage": 28.57 },
+      { "option": "Learning Focus / Noise Reduction", "count": 9, "percentage": 25.71 },
+      { "option": "Hands-on Projects", "count": 9, "percentage": 25.71 },
+      { "option": "Keeping Up With New Tools / Trends", "count": 8, "percentage": 22.86 },
+      { "option": "Open Source Mindset", "count": 4, "percentage": 11.43 },
+      { "option": "Public Sharing / Learning in Public", "count": 4, "percentage": 11.43 }
+    ]
+  },
+  "If DataTalks.Club had any impact on you, what should we know about it? Skills & Domains Learned": {
+    "total_responses": 35,
+    "options": [
+      { "option": "Data Engineering", "count": 17, "percentage": 48.57 },
+      { "option": "Machine Learning", "count": 11, "percentage": 31.43 },
+      { "option": "MLOps", "count": 10, "percentage": 28.57 },
+      { "option": "AI / LLMs", "count": 6, "percentage": 17.14 },
+      { "option": "Production ML / AI Practices", "count": 6, "percentage": 17.14 }
+    ]
+  },
+  "If DataTalks.Club had any impact on you, what should we know about it? Tools & Technologies Mentioned": {
+    "total_responses": 35,
+    "options": [
+      { "option": "Docker", "count": 6, "percentage": 17.14 },
+      { "option": "Airflow", "count": 4, "percentage": 11.43 },
+      { "option": "dbt", "count": 3, "percentage": 8.57 },
+      { "option": "Terraform", "count": 4, "percentage": 11.43 },
+      { "option": "PySpark", "count": 2, "percentage": 5.71 },
+      { "option": "Snowpark", "count": 1, "percentage": 2.86 },
+      { "option": "Temporal", "count": 1, "percentage": 2.86 },
+      { "option": "Pydantic / PydanticAI", "count": 1, "percentage": 2.86 },
+      { "option": "GitHub", "count": 2, "percentage": 5.71 }
+    ]    
+  },
+  "If DataTalks.Club had any impact on you, what should we know about it? Unique / High-Signal Outcomes": {
+    "total_responses": 35,
+    "options": [
+      { "option": "Built and Published a Book", "count": 1, "percentage": 2.86 },
+      { "option": "Freelance / Professional Impact", "count": 2, "percentage": 5.71 },
+      { "option": "Career Transformation", "count": 3, "percentage": 8.57 }
+    ]
+  },
+  "If DataTalks.Club had any impact on you, what should we know about it? Direct Citations (Verbatim)": {
+    "total_responses": 35,
+    "options": [
+      {
+        "option": "Direct Citation",
+        "text": "You guys host the only free mlops course I can find"
+      },
+      {
+        "option": "Direct Citation",
+        "text": "DataTalks.Club has pushed me to honestly get over my fear of sharing what I have learned in public"
+      },
+      {
+        "option": "Direct Citation",
+        "text": "DE Zoomcamp allowed me to get hands-on experience with technologies I have never used before"
+      }
+    ]
+  },
+  "Have you taken any of the following courses offered by the community? (Select all that apply)": {
+    "total_responses": 54,
+    "options": [
+      {
+        "option": "Data Engineering Zoomcamp",
+        "count": 35,
+        "percentage": 64.81
+      },
+      {
+        "option": "ML Engineering Zoomcamp",
+        "count": 25,
+        "percentage": 46.3
+      },
+      {
+        "option": "AI Dev Tools Zoomcamp",
+        "count": 15,
+        "percentage": 27.78
+      },
+      {
+        "option": "MLOps Zoomcamp",
+        "count": 14,
+        "percentage": 25.93
+      },
+      {
+        "option": "LLM Zoomcamp",
+        "count": 14,
+        "percentage": 25.93
+      },
+      {
+        "option": "Stock Market Analytics Zoomcamp",
+        "count": 7,
+        "percentage": 12.96
+      }
+    ]
+  },
+  "Do you plan to take any of these courses in the next year? (Select all that apply)": {
+    "total_responses": 71,
+    "options": [
+      {
+        "option": "Data Engineering Zoomcamp",
+        "count": 34,
+        "percentage": 47.89
+      },
+      {
+        "option": "LLM Zoomcamp",
+        "count": 27,
+        "percentage": 38.03
+      },
+      {
+        "option": "AI Dev Tools Zoomcamp",
+        "count": 26,
+        "percentage": 36.62
+      },
+      {
+        "option": "MLOps Zoomcamp",
+        "count": 25,
+        "percentage": 35.21
+      },
+      {
+        "option": "ML Engineering Zoomcamp",
+        "count": 18,
+        "percentage": 25.35
+      },
+      {
+        "option": "Stock Market Analytics Zoomcamp",
+        "count": 12,
+        "percentage": 16.9
+      },
+      {
+        "option": "Not sure",
+        "count": 10,
+        "percentage": 14.08
+      },
+      {
+        "option": "I don't plan to take any courses",
+        "count": 2,
+        "percentage": 2.82
+      },
+      {
+        "option": "Open-source LLM Zoomcamp",
+        "count": 1,
+        "percentage": 1.41
+      }
+    ]
+  }
+}

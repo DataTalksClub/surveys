@@ -1,0 +1,677 @@
+{
+  "How many ML models do you currently have in production?": {
+    "total_responses": 29,
+    "options": [
+      {
+        "option": "2-5",
+        "count": 13,
+        "percentage": 44.83
+      },
+      {
+        "option": "5+",
+        "count": 6,
+        "percentage": 20.69
+      },
+      {
+        "option": "1",
+        "count": 5,
+        "percentage": 17.24
+      },
+      {
+        "option": "0",
+        "count": 5,
+        "percentage": 17.24
+      }
+    ]
+  },
+  "Which tools do you use for deploying ML models? (Select all that apply)": {
+    "total_responses": 29,
+    "options": [
+      {
+        "option": "Azure Machine Learning",
+        "count": 10,
+        "percentage": 34.48
+      },
+      {
+        "option": "Kubernetes",
+        "count": 9,
+        "percentage": 31.03
+      },
+      {
+        "option": "AWS SageMaker",
+        "count": 8,
+        "percentage": 27.59
+      },
+      {
+        "option": "Google AI Platform",
+        "count": 5,
+        "percentage": 17.24
+      },
+      {
+        "option": "We don't deploy models",
+        "count": 5,
+        "percentage": 17.24
+      },
+      {
+        "option": "TensorFlow Serving",
+        "count": 3,
+        "percentage": 10.34
+      },
+      {
+        "option": "MLflow",
+        "count": 2,
+        "percentage": 6.9
+      },
+      {
+        "option": "Databricks",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "Docker",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "GitHub Actions",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "Prefect",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "Self-hosted",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "Alibaba Platform for AI EAS",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "MinIO",
+        "count": 1,
+        "percentage": 3.45
+      },
+      {
+        "option": "OpenLLama",
+        "count": 1,
+        "percentage": 3.45
+      }
+    ]
+  },
+  "Do you use any tools to monitor ML models in production? (Select all that apply)": {
+    "total_responses": 27,
+    "options": [
+      {
+        "option": "Prometheus and Grafana",
+        "count": 10,
+        "percentage": 37.04
+      },
+      {
+        "option": "We don't monitor models",
+        "count": 8,
+        "percentage": 29.63
+      },
+      {
+        "option": "Custom monitoring scripts",
+        "count": 6,
+        "percentage": 22.22
+      },
+      {
+        "option": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+        "count": 4,
+        "percentage": 14.81
+      },
+      {
+        "option": "Evidently AI",
+        "count": 2,
+        "percentage": 7.41
+      },
+      {
+        "option": "WhyLabs",
+        "count": 2,
+        "percentage": 7.41
+      },
+      {
+        "option": "Datadog",
+        "count": 1,
+        "percentage": 3.7
+      },
+      {
+        "option": "MLflow",
+        "count": 1,
+        "percentage": 3.7
+      },
+      {
+        "option": "Custom scripts for experiment tracking and data quality checks",
+        "count": 1,
+        "percentage": 3.7
+      },
+      {
+        "option": "Arize AI",
+        "count": 1,
+        "percentage": 3.7
+      }
+    ]
+  },
+  "Which tools do you use for model training and experimentation?": {
+    "total_responses": 28,
+    "options": [
+      {
+        "option": "MLflow",
+        "count": 17,
+        "percentage": 60.71
+      },
+      {
+        "option": "We don't use dedicated tools",
+        "count": 9,
+        "percentage": 32.14
+      },
+      {
+        "option": "TensorBoard",
+        "count": 2,
+        "percentage": 7.14
+      },
+      {
+        "option": "Jupyter notebooks",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "Python scripts",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "scikit-learn",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "PyTorch",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "TensorFlow",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "Weights & Biases (W&B)",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "Auto ML",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "Kubeflow",
+        "count": 1,
+        "percentage": 3.57
+      }
+    ]
+  },
+  "Which tools do you use for model or data versioning? (Select all that apply)": {
+    "total_responses": 26,
+    "options": [
+      {
+        "option": "MLflow",
+        "count": 17,
+        "percentage": 65.38
+      },
+      {
+        "option": "We don't use versioning tools",
+        "count": 9,
+        "percentage": 34.62
+      },
+      {
+        "option": "Git",
+        "count": 2,
+        "percentage": 7.69
+      },
+      {
+        "option": "DVC",
+        "count": 1,
+        "percentage": 3.85
+      }
+    ]
+  },
+  "Which workflow orchestration tools do you use for ML pipelines? (Select all that apply)": {
+    "total_responses": 26,
+    "options": [
+      {
+        "option": "Apache Airflow",
+        "count": 15,
+        "percentage": 57.69
+      },
+      {
+        "option": "We don't use workflow orchestration tools",
+        "count": 6,
+        "percentage": 23.08
+      },
+      {
+        "option": "Prefect",
+        "count": 4,
+        "percentage": 15.38
+      },
+      {
+        "option": "Dagster",
+        "count": 3,
+        "percentage": 11.54
+      },
+      {
+        "option": "Kestra",
+        "count": 2,
+        "percentage": 7.69
+      },
+      {
+        "option": "Kubeflow",
+        "count": 2,
+        "percentage": 7.69
+      },
+      {
+        "option": "AWS Step Functions",
+        "count": 2,
+        "percentage": 7.69
+      },
+      {
+        "option": "Python scripts for pipeline orchestration",
+        "count": 1,
+        "percentage": 3.85
+      },
+      {
+        "option": "MLflow for experiment workflows",
+        "count": 1,
+        "percentage": 3.85
+      },
+      {
+        "option": "Mage",
+        "count": 1,
+        "percentage": 3.85
+      },
+      {
+        "option": "Azure",
+        "count": 1,
+        "percentage": 3.85
+      }
+    ]
+  },
+  "Which CI/CD tools do you use for ML workflows? (Select all that apply)": {
+    "total_responses": 28,
+    "options": [
+      {
+        "option": "GitLab CI/CD",
+        "count": 14,
+        "percentage": 50.0
+      },
+      {
+        "option": "MLflow",
+        "count": 9,
+        "percentage": 32.14
+      },
+      {
+        "option": "We don't use CI/CD tools for ML",
+        "count": 7,
+        "percentage": 25.0
+      },
+      {
+        "option": "GitHub Actions",
+        "count": 4,
+        "percentage": 14.29
+      },
+      {
+        "option": "Jenkins",
+        "count": 2,
+        "percentage": 7.14
+      },
+      {
+        "option": "Python scripts for workflow automation",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "Argo Workflows",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "CircleCI",
+        "count": 1,
+        "percentage": 3.57
+      },
+      {
+        "option": "Azure DevOps",
+        "count": 1,
+        "percentage": 3.57
+      }
+    ]
+  },
+  "Do you use any feature stores? (Select all that apply)": {
+    "total_responses": 24,
+    "options": [
+      {
+        "option": "We don't use feature stores",
+        "count": 15,
+        "percentage": 62.5
+      },
+      {
+        "option": "AWS SageMaker Feature Store",
+        "count": 4,
+        "percentage": 16.67
+      },
+      {
+        "option": "Databricks Feature Store",
+        "count": 3,
+        "percentage": 12.5
+      },
+      {
+        "option": "Vertex AI Feature Store",
+        "count": 3,
+        "percentage": 12.5
+      },
+      {
+        "option": "Custom feature store",
+        "count": 1,
+        "percentage": 4.17
+      },
+      {
+        "option": "Feast",
+        "count": 1,
+        "percentage": 4.17
+      },
+      {
+        "option": "Minio",
+        "count": 1,
+        "percentage": 4.17
+      }
+    ]
+  },
+  "How often do you retrain your models in production?": {
+    "total_responses": 25,
+    "options": [
+      {
+        "option": "We don't retrain models",
+        "count": 12,
+        "percentage": 48.0
+      },
+      {
+        "option": "As needed based on performance degradation",
+        "count": 7,
+        "percentage": 28.0
+      },
+      {
+        "option": "Periodically (weekly, monthly, etc.)",
+        "count": 5,
+        "percentage": 20.0
+      },
+      {
+        "option": "Continuously (online learning)",
+        "count": 1,
+        "percentage": 4.0
+      }
+    ]
+  },
+  "Where do you run your ML workloads? (Select all that apply)": {
+    "total_responses": 26,
+    "options": [
+      {
+        "option": "Cloud (AWS)",
+        "count": 12,
+        "percentage": 46.15
+      },
+      {
+        "option": "Cloud (Azure)",
+        "count": 10,
+        "percentage": 38.46
+      },
+      {
+        "option": "On-Premise Infrastructure",
+        "count": 10,
+        "percentage": 38.46
+      },
+      {
+        "option": "Cloud (GCP)",
+        "count": 5,
+        "percentage": 19.23
+      },
+      {
+        "option": "Alibaba Cloud",
+        "count": 1,
+        "percentage": 3.85
+      }
+    ]
+  },
+  "How many people are in your ML team(s)?": {
+    "total_responses": 27,
+    "options": [
+      {
+        "option": "1-5",
+        "count": 13,
+        "percentage": 48.15
+      },
+      {
+        "option": "6-10",
+        "count": 8,
+        "percentage": 29.63
+      },
+      {
+        "option": "21-50",
+        "count": 2,
+        "percentage": 7.41
+      },
+      {
+        "option": "0",
+        "count": 2,
+        "percentage": 7.41
+      },
+      {
+        "option": "51+",
+        "count": 1,
+        "percentage": 3.7
+      },
+      {
+        "option": "11-20",
+        "count": 1,
+        "percentage": 3.7
+      }
+    ]
+  },
+  "Do you have a centralized MLOps team?": {
+    "total_responses": 28,
+    "options": [
+      {
+        "option": "No",
+        "count": 19,
+        "percentage": 67.86
+      },
+      {
+        "option": "Yes",
+        "count": 9,
+        "percentage": 32.14
+      }
+    ]
+  },
+  "How would you describe your MLOps maturity?": {
+    "total_responses": 27,
+    "options": [
+      {
+        "option": "Standardized deployment and monitoring patterns",
+        "count": 9,
+        "percentage": 33.33
+      },
+      {
+        "option": "Some production models, mostly manual processes",
+        "count": 8,
+        "percentage": 29.63
+      },
+      {
+        "option": "Experiments only (no models in production)",
+        "count": 8,
+        "percentage": 29.63
+      },
+      {
+        "option": "Advanced MLOps: CI/CD, automated retraining, clear ownership",
+        "count": 2,
+        "percentage": 7.41
+      }
+    ]
+  },
+  "For the ML/MLOps tools you use, how would you describe their role?": {
+    "total_responses": 25,
+    "options": [
+      {
+        "option": "Experimental / pilot use only",
+        "count": 9,
+        "percentage": 36.0
+      },
+      {
+        "option": "Used regularly but not critical",
+        "count": 8,
+        "percentage": 32.0
+      },
+      {
+        "option": "Mission-critical for production systems",
+        "count": 8,
+        "percentage": 32.0
+      }
+    ]
+  },
+  "Which ML or MLOps tools do you plan to adopt or expand in the next 12 months?": {
+    "total_responses": 12,
+    "options": [
+      {
+        "option": "MLflow",
+        "count": 2,
+        "percentage": 16.67
+      },
+      {
+        "option": "Azure ML",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Prefect",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Kestra",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Feature stores",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Model monitoring solutions",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Cloud-based deployment platforms",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Fabric ML Model tools",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Feast",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Docker/Kubernets",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Apache Airflow",
+        "count": 2,
+        "percentage": 16.67
+      },
+      {
+        "option": "CI/CD Tools",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Amazon Bedrock",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Weights & Biases (W&B)",
+        "count": 1,
+        "percentage": 8.33
+      },
+      {
+        "option": "Kubeflow",
+        "count": 1,
+        "percentage": 8.33
+      }
+    ]
+  },
+  "What are your biggest challenges in ML engineering and MLOps? (Select all that apply)": {
+    "total_responses": 26,
+    "options": [
+      {
+        "option": "Deployment complexity",
+        "count": 18,
+        "percentage": 69.23
+      },
+      {
+        "option": "Lack of skills or expertise",
+        "count": 14,
+        "percentage": 53.85
+      },
+      {
+        "option": "Monitoring and observability",
+        "count": 12,
+        "percentage": 46.15
+      },
+      {
+        "option": "Data quality",
+        "count": 9,
+        "percentage": 34.62
+      },
+      {
+        "option": "Scaling ML pipelines",
+        "count": 9,
+        "percentage": 34.62
+      },
+      {
+        "option": "Integration with existing systems",
+        "count": 8,
+        "percentage": 30.77
+      },
+      {
+        "option": "Compliance / governance / ethics",
+        "count": 7,
+        "percentage": 26.92
+      },
+      {
+        "option": "Cost / infrastructure constraints",
+        "count": 6,
+        "percentage": 23.08
+      },
+      {
+        "option": "Applying production best practices learned in courses to real-world projects",
+        "count": 1,
+        "percentage": 3.85
+      }
+    ]
+  }
+}

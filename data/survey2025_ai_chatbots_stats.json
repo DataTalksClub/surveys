@@ -1,0 +1,40 @@
+{
+  "How often do you use AI for work or personal tasks?": {
+    "options": [
+      { "option": "Daily", "percentage": 70.1 },
+      { "option": "Weekly", "percentage": 27.1 },
+      { "option": "Monthly", "percentage": 2.8 }
+    ]
+  },
+  "How long have you been using AI?": {
+    "options": [
+      { "option": "Less than 6 months", "percentage": 4.0 },
+      { "option": "6 months to 1 year", "percentage": 25.5 },
+      { "option": "1–2 years", "percentage": 40.2 },
+      { "option": "More than 2 years", "percentage": 30.3 }
+    ]
+  },
+  "If you use AI, for what kind of tasks do you use them?": {
+    "options": [
+      { "option": "Coding assistance", "percentage": 87.7 },
+      { "option": "Research assistance", "percentage": 72.3 },
+      { "option": "Brainstorming", "percentage": 68.8 },
+      { "option": "Personal productivity", "percentage": 58.9 },
+      { "option": "Content generation", "percentage": 46.6 },
+      { "option": "Data analysis", "percentage": 39.9 }
+    ]
+  },
+  "Which chat-based applications do you use?": {
+    "options": [
+      { "option": "ChatGPT", "percentage": 92.1 },
+      { "option": "Anthropic Claude", "percentage": 32.9 },
+      { "option": "Google Gemini", "percentage": 43.3 }
+    ]
+  },
+  "Which IDEs or plugins do you use for development?": {
+    "options": [
+      { "option": "GitHub Copilot", "percentage": 78.1 },
+      { "option": "Cursor", "percentage": 19.9 }
+    ]
+  }
+}

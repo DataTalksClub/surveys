@@ -1,0 +1,802 @@
+{
+  "Which data storage solutions do you use? (Select all that apply)": {
+    "total_responses": 54,
+    "options": [
+      {
+        "option": "Relational Databases (e.g., MySQL, Postgres)",
+        "count": 41,
+        "percentage": 75.93
+      },
+      {
+        "option": "Data Lakes (e.g., Amazon S3, Azure Data Lake Storage, Google Cloud Storage)",
+        "count": 35,
+        "percentage": 64.81
+      },
+      {
+        "option": "Data Warehouses (e.g., Snowflake, BigQuery, Amazon Redshift)",
+        "count": 31,
+        "percentage": 57.41
+      },
+      {
+        "option": "Data Lakehouses (e.g., Databricks, Apache Iceberg)",
+        "count": 16,
+        "percentage": 29.63
+      },
+      {
+        "option": "NoSQL Databases (e.g., MongoDB, Cassandra, DynamoDB)",
+        "count": 10,
+        "percentage": 18.52
+      },
+      {
+        "option": "Vector Databases (e.g., Pinecone, Milvus, Qdrant)",
+        "count": 5,
+        "percentage": 9.26
+      },
+      {
+        "option": "Local files (CSV, Parquet) for projects and training datasets",
+        "count": 1,
+        "percentage": 1.85
+      }
+    ]
+  },
+  "Which data warehouse solutions do you use? (Select all that apply)": {
+    "total_responses": 41,
+    "options": [
+      {
+        "option": "Google BigQuery",
+        "count": 14,
+        "percentage": 34.15
+      },
+      {
+        "option": "Snowflake",
+        "count": 13,
+        "percentage": 31.71
+      },
+      {
+        "option": "Amazon Redshift",
+        "count": 7,
+        "percentage": 17.07
+      },
+      {
+        "option": "Azure Synapse Analytics",
+        "count": 6,
+        "percentage": 14.63
+      },
+      {
+        "option": "ClickHouse",
+        "count": 6,
+        "percentage": 14.63
+      },
+      {
+        "option": "SQL Server",
+        "count": 1,
+        "percentage": 2.44
+      },
+      {
+        "option": "Cloudera",
+        "count": 1,
+        "percentage": 2.44
+      },
+      {
+        "option": "PostgreSQL",
+        "count": 1,
+        "percentage": 2.44
+      },
+      {
+        "option": "Greenplum",
+        "count": 1,
+        "percentage": 2.44
+      },
+      {
+        "option": "Local DuckDB",
+        "count": 1,
+        "percentage": 2.44
+      }
+    ]
+  },
+  "Which data lake solutions do you use? (Select all that apply)": {
+    "total_responses": 46,
+    "options": [
+      {
+        "option": "Amazon S3",
+        "count": 22,
+        "percentage": 47.83
+      },
+      {
+        "option": "Azure Data Lake Storage",
+        "count": 15,
+        "percentage": 32.61
+      },
+      {
+        "option": "Google Cloud Storage",
+        "count": 13,
+        "percentage": 28.26
+      },
+      {
+        "option": "Apache Hadoop Distributed File System (HDFS)",
+        "count": 8,
+        "percentage": 17.39
+      }
+    ]
+  },
+  "Do you use any lakehouse architecture solutions? (Select all that apply)": {
+    "total_responses": 41,
+    "options": [
+      {
+        "option": "Databricks",
+        "count": 14,
+        "percentage": 34.15
+      },
+      {
+        "option": "We don't use lakehouse solutions",
+        "count": 14,
+        "percentage": 34.15
+      },
+      {
+        "option": "Delta Lake",
+        "count": 8,
+        "percentage": 19.51
+      },
+      {
+        "option": "Apache Iceberg",
+        "count": 5,
+        "percentage": 12.2
+      },
+      {
+        "option": "Apache Hudi",
+        "count": 3,
+        "percentage": 7.32
+      },
+      {
+        "option": "Microsoft Fabric",
+        "count": 3,
+        "percentage": 7.32
+      },
+      {
+        "option": "We don't use lakehouse solutions",
+        "count": 2,
+        "percentage": 4.88
+      },
+      {
+        "option": "Iceberg",
+        "count": 1,
+        "percentage": 2.44
+      },
+      {
+        "option": "DuckLake",
+        "count": 1,
+        "percentage": 2.44
+      }
+    ]
+  },
+  "Which workflow orchestration tools do you use to manage data pipelines? (Select all that apply)": {
+    "total_responses": 48,
+    "options": [
+      {
+        "option": "Apache Airflow",
+        "count": 22,
+        "percentage": 45.83
+      },
+      {
+        "option": "We don't use workflow orchestration tools",
+        "count": 9,
+        "percentage": 18.75
+      },
+      {
+        "option": "AWS Step Functions",
+        "count": 7,
+        "percentage": 14.58
+      },
+      {
+        "option": "Prefect",
+        "count": 5,
+        "percentage": 10.42
+      },
+      {
+        "option": "Kestra",
+        "count": 3,
+        "percentage": 6.25
+      },
+      {
+        "option": "Mage",
+        "count": 2,
+        "percentage": 4.17
+      },
+      {
+        "option": "Dagster",
+        "count": 2,
+        "percentage": 4.17
+      },
+      {
+        "option": "Databricks",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Azure Data Factory",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Databricks",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Microsoft Fabric",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Control - M",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Temporal",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Oozie/Shell Scripting",
+        "count": 1,
+        "percentage": 2.08
+      },
+      {
+        "option": "Kubeflow",
+        "count": 1,
+        "percentage": 2.08
+      }
+    ]
+  },
+  "Which data integration or ETL/ELT tools do you use? (Select all that apply)": {
+    "total_responses": 46,
+    "options": [
+      {
+        "option": "dbt (data build tool)",
+        "count": 21,
+        "percentage": 45.65
+      },
+      {
+        "option": "We don't use ETL/ELT tools",
+        "count": 10,
+        "percentage": 21.74
+      },
+      {
+        "option": "dlt (data load tool)",
+        "count": 9,
+        "percentage": 19.57
+      },
+      {
+        "option": "Airbyte",
+        "count": 4,
+        "percentage": 8.7
+      },
+      {
+        "option": "Fivetran",
+        "count": 3,
+        "percentage": 6.52
+      },
+      {
+        "option": "Databricks",
+        "count": 2,
+        "percentage": 4.35
+      },
+      {
+        "option": "Talend",
+        "count": 2,
+        "percentage": 4.35
+      },
+      {
+        "option": "Apache Nifi",
+        "count": 2,
+        "percentage": 4.35
+      },
+      {
+        "option": "Microsoft SQL SSIS",
+        "count": 2,
+        "percentage": 4.35
+      },
+      {
+        "option": "Azure Data Factory",
+        "count": 1,
+        "percentage": 2.17
+      },
+      {
+        "option": "Databricks Lakehouse Federation (JDBC)",
+        "count": 1,
+        "percentage": 2.17
+      },
+      {
+        "option": "Microsoft Fabric",
+        "count": 1,
+        "percentage": 2.17
+      },
+      {
+        "option": "Custom made",
+        "count": 1,
+        "percentage": 2.17
+      }
+    ]
+  },
+  "Which frameworks do you use for data processing? (Select all that apply)": {
+    "total_responses": 50,
+    "options": [
+      {
+        "option": "Pandas",
+        "count": 35,
+        "percentage": 70.0
+      },
+      {
+        "option": "Apache Spark",
+        "count": 29,
+        "percentage": 58.0
+      },
+      {
+        "option": "We don't use data processing frameworks",
+        "count": 7,
+        "percentage": 14.0
+      },
+      {
+        "option": "Polars",
+        "count": 4,
+        "percentage": 8.0
+      },
+      {
+        "option": "Apache Flink",
+        "count": 3,
+        "percentage": 6.0
+      },
+      {
+        "option": "Custom Python scripts",
+        "count": 1,
+        "percentage": 2.0
+      },
+      {
+        "option": "Dataflow Gen 2 in Microsoft Fabric",
+        "count": 1,
+        "percentage": 2.0
+      },
+      {
+        "option": "Dask",
+        "count": 1,
+        "percentage": 2.0
+      }
+    ]
+  },
+  "Do you use any data observability or monitoring tools for your pipelines? (Select all that apply)": {
+    "total_responses": 39,
+    "options": [
+      {
+        "option": "We don't use data observability tools",
+        "count": 30,
+        "percentage": 76.92
+      },
+      {
+        "option": "Great Expectations",
+        "count": 2,
+        "percentage": 5.13
+      },
+      {
+        "option": "Datadog",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Custom checks and validations in Python scripts",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Microsoft Fabric Monitor",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Databand",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Datafold",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Monte Carlo",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Microsoft SQL Server Integration Services (SSIS)",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "Soda.io",
+        "count": 1,
+        "percentage": 2.56
+      },
+      {
+        "option": "dbt tests (data build tool)",
+        "count": 1,
+        "percentage": 2.56
+      }
+    ]
+  },
+  "How do you ensure data quality in your workflows? (Select all that apply)": {
+    "total_responses": 43,
+    "options": [
+      {
+        "option": "Manual data quality checks",
+        "count": 23,
+        "percentage": 53.49
+      },
+      {
+        "option": "Automated tests in pipelines",
+        "count": 22,
+        "percentage": 51.16
+      },
+      {
+        "option": "We don't have dedicated data quality practices",
+        "count": 8,
+        "percentage": 18.6
+      },
+      {
+        "option": "Automated validation tools (e.g., Great Expectations, Deequ)",
+        "count": 7,
+        "percentage": 16.28
+      },
+      {
+        "option": "Custom Python scripts",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Data contract with Soda.io",
+        "count": 1,
+        "percentage": 2.33
+      }
+    ]
+  },
+  "Which data governance tools or practices do you use? (Select all that apply)": {
+    "total_responses": 43,
+    "options": [
+      {
+        "option": "We don't use data governance tools",
+        "count": 22,
+        "percentage": 51.16
+      },
+      {
+        "option": "Data Cataloging (manual or automated)",
+        "count": 16,
+        "percentage": 37.21
+      },
+      {
+        "option": "Apache Atlas",
+        "count": 2,
+        "percentage": 4.65
+      },
+      {
+        "option": "Documentation of datasets, schemas and preprocessing steps",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Databricks",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Purview",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Unity Catalogue",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Collibra",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Company-specific",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Data 360 by Precisely",
+        "count": 1,
+        "percentage": 2.33
+      },
+      {
+        "option": "Alation",
+        "count": 1,
+        "percentage": 2.33
+      }
+    ]
+  },
+  "Do you work with real-time data processing?": {
+    "total_responses": 49,
+    "options": [
+      {
+        "option": "No",
+        "count": 21,
+        "percentage": 42.86
+      },
+      {
+        "option": "Yes, but with minimal real-time requirements",
+        "count": 15,
+        "percentage": 30.61
+      },
+      {
+        "option": "Yes, using dedicated frameworks (e.g., Apache Kafka, Apache Flink)",
+        "count": 13,
+        "percentage": 26.53
+      }
+    ]
+  },
+  "Which cloud platforms do you use for data engineering workloads? (Select all that apply)": {
+    "total_responses": 52,
+    "options": [
+      {
+        "option": "AWS",
+        "count": 21,
+        "percentage": 40.38
+      },
+      {
+        "option": "Microsoft Azure",
+        "count": 18,
+        "percentage": 34.62
+      },
+      {
+        "option": "On-premise",
+        "count": 14,
+        "percentage": 26.92
+      },
+      {
+        "option": "Google Cloud Platform (GCP)",
+        "count": 13,
+        "percentage": 25.0
+      },
+      {
+        "option": "Databricks",
+        "count": 1,
+        "percentage": 1.92
+      },
+      {
+        "option": "Alibaba Cloud",
+        "count": 1,
+        "percentage": 1.92
+      }
+    ]
+  },
+  "How would you describe your data engineering maturity?": {
+    "total_responses": 48,
+    "options": [
+      {
+        "option": "Emerging (scheduled pipelines, partial standardization)",
+        "count": 22,
+        "percentage": 45.83
+      },
+      {
+        "option": "Established (orchestrated pipelines, monitoring, versioning)",
+        "count": 16,
+        "percentage": 33.33
+      },
+      {
+        "option": "Ad-hoc (scripts, manual jobs, limited automation)",
+        "count": 7,
+        "percentage": 14.58
+      },
+      {
+        "option": "Advanced (governed platform, SLAs, self-serve data products)",
+        "count": 3,
+        "percentage": 6.25
+      }
+    ]
+  },
+  "For the data engineering tools you use, how would you describe their role?": {
+    "total_responses": 48,
+    "options": [
+      {
+        "option": "Mission-critical for core data workloads",
+        "count": 30,
+        "percentage": 62.5
+      },
+      {
+        "option": "Used regularly but not critical",
+        "count": 12,
+        "percentage": 25.0
+      },
+      {
+        "option": "Experimental / pilot use only",
+        "count": 6,
+        "percentage": 12.5
+      }
+    ]
+  },
+  "Which data engineering tools or technologies do you plan to adopt or expand in the next 12 months?": {
+      "total_responses": 30,
+      "options": [
+        {
+          "option": "Databricks",
+          "count": 7,
+          "percentage": 23.33
+        },
+        {
+          "option": "Apache Spark (Batch & Streaming)",
+          "count": 6,
+          "percentage": 20.00
+        },
+        {
+          "option": "Cloud Platforms (AWS / GCP / Azure)",
+          "count": 6,
+          "percentage": 20.00
+        },
+        {
+          "option": "Workflow Orchestration (Airflow / Prefect / Kestra)",
+          "count": 5,
+          "percentage": 16.67
+        },
+        {
+          "option": "Data Warehouses (Snowflake)",
+          "count": 4,
+          "percentage": 13.33
+        },
+        {
+          "option": "dbt",
+          "count": 3,
+          "percentage": 10.00
+        },
+        {
+          "option": "Streaming Platforms (Kafka / Kinesis / Flink)",
+          "count": 3,
+          "percentage": 10.00
+        },
+        {
+          "option": "Observability & Monitoring (Grafana / Data Monitoring)",
+          "count": 4,
+          "percentage": 13.33
+        },
+        {
+          "option": "Data Governance & Quality (Dataplex / Automated Tests)",
+          "count": 3,
+          "percentage": 10.00
+        },
+        {
+          "option": "Programming & Query Engines (Python / SQL)",
+          "count": 3,
+          "percentage": 10.00
+        },
+        {
+          "option": "Modern Analytics Engines (DuckDB / Polars)",
+          "count": 2,
+          "percentage": 6.67
+        },
+        {
+          "option": "Ingestion & ELT Tools (Airbyte / dlt)",
+          "count": 2,
+          "percentage": 6.67
+        },
+        {
+          "option": "Lakehouse Table Formats (Iceberg)",
+          "count": 2,
+          "percentage": 6.67
+        },
+        {
+          "option": "Microsoft Fabric",
+          "count": 2,
+          "percentage": 6.67
+        },
+        {
+          "option": "Real-Time / Declarative Pipelines (Delta Live Tables)",
+          "count": 2,
+          "percentage": 6.67
+        },
+        {
+          "option": "AI-Driven Analytics",
+          "count": 1,
+          "percentage": 3.33
+        },
+        {
+          "option": "Database Platforms (Supabase / Postgres)",
+          "count": 1,
+          "percentage": 3.33
+        }
+      ]
+    },
+  "What are your biggest challenges in data engineering? (Select all that apply)": {
+    "total_responses": 49,
+    "options": [
+      {
+        "option": "Data Quality",
+        "count": 28,
+        "percentage": 57.14
+      },
+      {
+        "option": "Scaling Data Pipelines",
+        "count": 25,
+        "percentage": 51.02
+      },
+      {
+        "option": "Integrating Heterogeneous Data Sources",
+        "count": 24,
+        "percentage": 48.98
+      },
+      {
+        "option": "Cost Management",
+        "count": 22,
+        "percentage": 44.90
+      },
+      {
+        "option": "Lack of Standards, Ownership, or Governance",
+        "count": 19,
+        "percentage": 38.78
+      },
+      {
+        "option": "Security, Privacy, and Compliance",
+        "count": 15,
+        "percentage": 30.61
+      },
+      {
+        "option": "Reliability, Monitoring, and Incident Response",
+        "count": 13,
+        "percentage": 26.53
+      },
+      {
+        "option": "Skills, Hiring, or Career Constraints",
+        "count": 14,
+        "percentage": 28.57
+      },
+      {
+        "option": "Production Readiness and Best Practices",
+        "count": 2,
+        "percentage": 4.08
+      },
+      {
+        "option": "Compute Fragmentation (Multiple Engines / Runtimes)",
+        "count": 1,
+        "percentage": 2.04
+      }
+    ]
+  },
+  "How many people are in your data engineering team(s)?": {
+    "total_responses": 53,
+    "options": [
+      {
+        "option": "1-5",
+        "count": 26,
+        "percentage": 49.06
+      },
+      {
+        "option": "0",
+        "count": 8,
+        "percentage": 15.09
+      },
+      {
+        "option": "6-10",
+        "count": 7,
+        "percentage": 13.21
+      },
+      {
+        "option": "11-20",
+        "count": 7,
+        "percentage": 13.21
+      },
+      {
+        "option": "21-50",
+        "count": 4,
+        "percentage": 7.55
+      },
+      {
+        "option": "51+",
+        "count": 1,
+        "percentage": 1.89
+      }
+    ]
+  }
+}
